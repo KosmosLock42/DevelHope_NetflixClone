@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/netflix-logo.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://kit.fontawesome.com/784b6e933e.js" crossorigin="anonymous"></script>
+    <title>Netflix Homepage</title>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+
+    <header>
+        <nav>
+            <img id="logo" src="assets/img/netflix-Logo2.svg" alt="logo di Netflix">
+            <ul>
+                <li>
+                    <button type="button">Accedi</button>
+                </li>
+                <li>
+                    <i class="fas fa-globe">
+
+                    </i>
+                    <select name="lingua" class="language">
+                        <option value="it">Italiano</option>
+                        <option value="en">English</option>
+                    </select>
+                </li>
+            </ul>
+        </nav>
+
+        <div id="above-the-fold">
+            <h1>Film, serie TV e tanto altro. Senza limiti</h1>
+            <h2>Guarda ciò che vuoi ovunque. Decidi quando vuoi.</h2>
+            <h3>Vuoi guardare Netflix? Inserisci l'indirizzo email per abbonarti o riattivare il tuo abbonamento.</h3>
+
+            <div class="form">
+                <input type="email" name="email" id="email" placeholder="Indirizzo email">
+                <button type="submit">Inizia <i class="fas fa-angle-right"></i></button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- SEZIONE UNO -->
+
+        <section class="sezioni">
+            <div class="left-side">
+                <h2>Goditi Netflix sulla tua TV.</h2>
+                <p>Guarda Netflix su smart TV, Playstation, Xbox, Chromecast, Apple TV, lettori Blu-ray e molti altri
+                    dispositivi.</p>
+            </div>
+
+            <div class="right-side">
+                <img src="assets/img/tv.png" alt="" id="img-tv">
+                <video autoplay playsinline muted loop>
+                    <source
+                        src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-0819.m4v"
+                        type="video/mp4">
+                </video>
+            </div>
+        </section>
+
+        <!-- SEZIONE DUE -->
+
+        <section class="sezioni">
+            <div class="right-side-2">
+                <h2>Scarica le tue serie da guardare offline.</h2>
+                <p>Salva facilmente i tuoi preferiti così avrai sempre qualcosa da guardare.</p>
+            </div>
+
+            <div class="left-side-2">
+                <img src="assets/img/mobile-0819.jpg" alt="" id="stranger-things">
+                <div id="banner">
+                    <div id="locandina">
+                        <img src="assets/stranger.png" alt="" id="locandina-img">
+                    </div>
+                    <div id="span">
+                        <span>Stranger Things</span>
+                        <span>Download in corso...</span>
+                    </div>
+                    <div id="gif-flex">
+                        <img src="assets/img/download-icon.gif" alt="" id="gif">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SEZIONE TRE -->
+
+        <section class="sezioni">
+            <div class="left-side">
+                <h2>Guarda Netflix ovunque.</h2>
+                <p>Cellulare, tablet, laptop e TV: scegli tu cosa usare per guardare in streaming film e serie TV senza
+                    limiti e senza spendere di più.</p>
+            </div>
+
+            <div class="right-side">
+                <img src="assets/img/device-pile.png" alt="" id="img-device">
+                <video autoplay playsinline muted loop>
+                    <source
+                        src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices.m4v"
+                        type="video/mp4" id="video-2">
+                </video> <!-- SISTEMARE VIDEO -->
+            </div>
+        </section>
+
+        <!-- SEZIONE QUATTRO -->
+
+        <section class="sezioni">
+            <div class="right-side-2">
+                <h2>Crea profili per i bambini.</h2>
+                <p>I bambini scoprono nuove avventure in compagnia dei loro personaggi preferiti in uno spazio tutto
+                    loro già incluso nel tuo abbonamento.</p>
+            </div>
+
+            <div class="left-side-2">
+                <img src="assets/img/kids.png" alt="immagine per la sezione bambini" id="kids" style="width: 90%;">
+            </div>
+        </section>
+
+        <!-- FAQ -->
+
+        <section id="faq">
+            <h2>Domande frequenti</h2>
+
+            
+            <div id="answer">
+                <div class='domanda'>
+                    <p>Cos'è Netflix?</p><button id='myBtn' style="background-color: transparent; border: none; font-size: 1.5rem; cursor:pointer">+</button>
+                </div>
+                <div class="risposta collapsible">
+                    <p>Netflix è un servizio di streaming che offre una varietà di serie TV, film, documentari pluripremiati e tanto altro su una vasta gamma di dispositivi connessi a Internet. <br> <br> Guarda quello che vuoi, in qualsiasi momento e senza interruzioni pubblicitarie. Il tutto a una quota mensile ridotta. C'è sempre qualcosa di nuovo da scoprire: aggiungiamo nuovi film e serie TV ogni settimana!</p>
+                </div>
+
+
+                <div class='domanda'>
+                    <p>Quanto costa Netflix?</p><p>+</p>
+                </div>
+
+                <div class='domanda'>
+                    <p>Dove posso guardare Netflix?</p><p>+</p>
+                </div>
+
+                <div class='domanda'>
+                    <p>Come posso disdire?</p><p>+</p>
+                </div>
+
+                <div class='domanda'>
+                    <p>Cosa posso guardare su Netflix?</p><p>+</p>
+                </div>
+
+                <div class='domanda'>
+                    <p>Netflix è adatto ai bambini?</p><p>+</p>
+                </div> 
+            </div>
+
+            <div id="camp-email">
+                <p>Vuoi guardare Netflix? Inserisci l'indirizzo email per abbonarti o riattivare il tuo abbonamento.</p>
+                <div class="form">
+                    <input type="email" name="email" id="email" placeholder="Indirizzo email">
+                    <button type="submit">Inizia <i class="fas fa-angle-right"></i></button>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+
+    <footer>
+        <p id="number">Domande? Chiama <a href="tel:800-130-364">800-130-364</a></p>
+        <ul class="footer-flex">
+            <li><a href="https://help.netflix.com/support/412"> Domande frequenti </a></li>
+            <li><a href="https://help.netflix.com/">Centro assistenza</a></li>
+            <li><a href="https://www.netflix.com/youraccount">Account</a></li>
+            <li><a href="https://media.netflix.com/">Media Center</a></li>
+            <li><a href="http://ir.netflix.com/">Rapporti con gli investitori </a></li>
+            <li><a href="https://jobs.netflix.com/jobs">Opportunità di lavoro</a></li>
+            <li><a href="https://www.netflix.com/redeem">Riscatta carte regalo</a></li>
+            <li><a href="https://www.netflix.com/gift-cards">Acquista carte regalo</a></li>
+            <li><a href="https://www.netflix.com/watch">Come guardare Netflix</a></li>
+            <li><a href="https://help.netflix.com/legal/termsofuse">Condizioni di utilizzo</a></li>
+            <li><a href="https://help.netflix.com/legal/privacy">Privacy</a></li>
+            <li><a href="https://www.netflix.com/it/#">Preferenze per i cookie</a></li>
+            <li><a href="https://help.netflix.com/legal/corpinfo">Informazioni sull'azienda</a></li>
+            <li><a href="https://help.netflix.com/contactus">Contattaci</a></li>
+            <li><a href="https://fast.com/">Test di velocità</a></li>
+            <li><a href="https://help.netflix.com/legal/notices">Note legali</a></li>
+            <li><a href="https://www.netflix.com/it/browse/genre/839338">Solo su Netflix</a></li>
+        </ul>
+        <div class="select-lang">
+            <i class="fas fa-globe">
+
+            </i>
+            <select name="lingua" class="language2">
+                <option value="it">Italiano</option>
+                <option value="en">English</option>
+            </select>
+            <span class="arrow"></span>
+
+            <p>Netflix Italia</p>
+        </div>
+        
+    </footer>
+
+    <script>
+        let btn = document.getElementById('myBtn'); /* la variabile entra nel documento e prendo l'elemento con id myBtn */
+
+        btn.addEventListener('click', function() { /* add.. aggiunge un ascoltatore di eventi (btn sarà in ascolto (in attesa) di un eveno, in questo caso il click) - dopo l'evento esegue la funzione che scrivo */
+            document.querySelector('.risposta').classList.toggle('collapsible'); /* entro nel documento, con quesrySelctor posso selzionare gli elementi tramite i selettori css (id, tag, classi ecc), in questo caso seleziono gli elementi con classe risposta, entro nella lista delle classi e faccio il toggle della classe collapsible (il toggle, rimuove la classe se è già messa o la aggiunge se non c'è) */
+        });
+    </script>
+
+</body>
+
+</html>
